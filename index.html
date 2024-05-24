@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link  rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
 </head>
 <body>
-    <div id="main">
-        <div id="part1"></div>
-        <div id="part2"></div>
-        <div id="part3"></div>
-        <div id="text-div">
-            <h1>world</h1>
-            <h1>Means</h1>
-            <h1>Our</h1>
-            <h1>Mother</h1>
+    <div class="calculator">
+        <input type="text" placeholder="0" id="inputBox">
+        <div>
+            <button class="operator">AC</button>
+            <button class="operator">DEL</button>
+            <button class="operator">%</button>
+            <button class="operator">/</button>
         </div>
-        <div id="small-img-div">
+        <div>
+            <button>7</button>
+            <button>8</button>
+            <button>9</button>
+            <button class="operator">*</button>
         </div>
-        <div id="vertical-text">
-            <h1>SELECTION WINTER</h1>
+        <div>
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button class="operator">-</button>
         </div>
+        <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button class="operator">+</button>
+        </div>
+        <div>
+            <button>00</button>
+            <button>0</button>
+            <button>.</button>
+            <button class="equalBtn">=</button>
+        </div>
+        
     </div>
-    
+
+    <script src="script.js"></script>
 </body>
 </html>

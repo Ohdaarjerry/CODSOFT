@@ -1,77 +1,63 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+</style>
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
-html,body{
-    height: 100%;
+body{
     width: 100%;
-}
-#main{
     height: 100%;
-    width: 100%;
-    background-color: aqua;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(23, 19, 12, 0.801);
 }
-#part1{
-    height: 100%;
-    width: 26%;
-}
-#part2{
-    height: 100%;
-    width: 67%;
-    background-color: rgb(13, 151, 189);
-    background-image: url(https://images.pexels.com/photos/1921168/pexels-photo-1921168.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-#part3{
-    height: 100%;
-    width: 7%;
-}
-#text-div{
-    height: 300px;
-    position: absolute;
-    width: 400px;
-    left: 5%;
-    top: 50%;
-    transform: translate(0,-50%);
-}
-#text-div>h1{
-    font-size: 100px;
-    font-family: monument;
-    font-weight: 900;
-    line-height: 75px;
-    letter-spacing: 8px;
-    color: whitesmoke;
-    text-transform: uppercase;
+.calculator{
+    border: 1px solid#717377;
+    padding: 20px;
+    border-radius: 16px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119e, 0.5);
 
 }
-#small-img-div{
-    height: 400px;
-    width: 300px;
-    background-image: url(https://cdn.pixabay.com/photo/2015/01/15/12/46/woman-600225_640.jpg);
-    background-size: cover;
-    background-position: center;
-    position: absolute;
-    top: 50%;
-    right: 5%;
-    transform: translate(0,-50%);
+input{
+    width: 320%;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background-color: transparent;
+    box-shadow: 0px 3px 15px rgbs(84,84,84,0.1);
+    font-size: 40px
+    text-align: right;
+    cursor: pointer;
 }
-#vertical-text{
-    position: absolute;
-    transform: rotate(90deg);
-    right: -51.10%;
-    top: -7%;
-    transform-origin: 0% 0%;
+input::placeholder{
+    color:#ffff;
+
 }
-#vertical-text h1{
-    font-size: 70px;
-    font-weight: 900;
-    color: transparent;
-    letter-spacing: 8px;
-    font-family: monument;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: white;
+
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: rgb(2, 18, 16);
+    color:#ffff;
+    font-size: 20px;
+    box-shadow: -8px -8px -15px rgba(255, 255, 255, 0.8);
+    cursor: pointer;
+}
+
+.equalBtn{
+    background: #a4d70d;
+}
+
+.operator{
+    color: #ee0aaa;
+}
+
 }
