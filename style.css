@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+}
+#part1{
+    height: 100%;
+    width: 26%;
+}
+#part2{
+    height: 100%;
+    width: 67%;
+    background-color: rgb(13, 151, 189);
+    background-image: url(https://images.pexels.com/photos/1921168/pexels-photo-1921168.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#part3{
+    height: 100%;
+    width: 7%;
+}
+#text-div{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    left: 5%;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+#text-div>h1{
+    font-size: 100px;
+    font-family: monument;
+    font-weight: 900;
+    line-height: 75px;
+    letter-spacing: 8px;
+    color: whitesmoke;
+    text-transform: uppercase;
+
+}
+#small-img-div{
+    height: 400px;
+    width: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/15/12/46/woman-600225_640.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0,-50%);
+}
+#vertical-text{
+    position: absolute;
+    transform: rotate(90deg);
+    right: -51.10%;
+    top: -7%;
+    transform-origin: 0% 0%;
+}
+#vertical-text h1{
+    font-size: 70px;
+    font-weight: 900;
+    color: transparent;
+    letter-spacing: 8px;
+    font-family: monument;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+}
